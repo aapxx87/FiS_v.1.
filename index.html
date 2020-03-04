@@ -1,55 +1,62 @@
 <!DOCTYPE html>
 <html>
-  
+
   <head>
       <meta charset="UTF-8">
       <link rel="stylesheet" href="style.css">
-     
+
   </head>
-  
+
   <body>
-    
-    
+
+
 <div class="searchTitle">Что ищете:</div>
-    
-    
+
+
 <form class="inputForm" onsubmit="poisk(); return false;">
-      
+
       <div class="inputAreaDiv">
               <input type="text" id="inp_1" class="inputArea">
       </div>
-               
-    
-      <div class="buttonSearchDiv">   
+
+
+      <div class="buttonSearchDiv">
               <button class="buttonSearch">Искать</button>
-      </div>       
-     
+      </div>
+
 </form>
-    
-    
-    
+
+
+
  <div class="titleResultat">Результат:</div>
- <div class="resultat" id="result1"></div>   
-  
- 
-     
-      
-</div> 
-      
-    
+ <div class="resultat" id="result1"></div>
+
+
+ <div class="divObsij">
+
+      <div class="divKorSoders">
+
+          <input type="button" class="buttonSearch" value="Коробка 1" onclick="addmassiv()">
+
+          <input type="button" class="buttonSearch" value="Коробка 2" onclick="addmassiv1()">
+
+          <input type="button" class="buttonSearch" value="Коробка 3" onclick="addmassiv2()">
+
+     </div>
+
+
+     <div class="resultKor">
+           <div id="rezult" class="korSoders"></div>
+     </div>
+
+
+</div>
+
+
+
+</div>
+
+
 </body>
-  
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
