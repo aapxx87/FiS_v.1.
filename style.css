@@ -1,0 +1,105 @@
+body {
+  background: #93a17e;
+}
+
+
+.searchTitle {
+  width: 210px; 
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background: ;
+  font-size: 20px;
+}
+
+
+.inputAreaDiv {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: ;
+}
+
+
+.inputForm {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.inputArea {
+  width: 180px; 
+  height: 25px; 
+}
+
+
+.buttonSearchDiv {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: ;
+}
+
+
+.buttonSearch {
+  width: 100px; 
+  height: 35px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border: 1px solid;
+}
+
+
+.titleResultat {
+  display: flex;
+  width: 210px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background: ;
+  font-size: 20px;
+}
+
+
+.resultat {
+  display: flex;
+  width: 210px;
+  height: 27px; 
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
