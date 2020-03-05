@@ -5,7 +5,7 @@ body {
 
 .searchTitle {
   width: 210px;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   background: ;
@@ -23,13 +23,14 @@ body {
 
 
 .inputForm {
+  width: 240px;
   margin-left: auto;
   margin-right: auto;
 }
 
 
 .inputArea {
-  width: 180px;
+  width: 210px;
   height: 25px;
 }
 
@@ -48,7 +49,7 @@ body {
   height: 35px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
+  margin-bottom: ;
   border: 1px solid;
 }
 
@@ -56,7 +57,7 @@ body {
 .titleResultat {
   display: flex;
   width: 210px;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   background: ;

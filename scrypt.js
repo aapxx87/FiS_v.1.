@@ -32,3 +32,25 @@ function poisk(){
 
   document.getElementById('result1').innerHTML = result;
 };
+
+
+
+const kont1 = ['Амелотекс', 'Гриппферон', 'Дифлюкан', 'Зовиракс', 'Лидокаин спрей', 'Макмирор', 'Мидокалм', 'Микролакс', 'Млекоин', 'Найз табл', 'Но-шпа внутривенно', 'Но-шпа таблетки', 'Нурофен экспресс'];
+
+function addmassiv(){
+    document.getElementById('rezult').innerHTML = kont1.join(", ");
+    };
+
+
+const kont2 = ['Таваник', 'Тева мазь'];
+
+function addmassiv1(){
+    document.getElementById('rezult').innerHTML = kont2.join(", ");
+    };
+
+
+const kont3 = ['Регидрон', 'Самоклеящийся бинт'];
+
+function addmassiv2(){
+    document.getElementById('rezult').innerHTML = kont3.join(", ");
+    };
