@@ -36,20 +36,55 @@ function poisk(){
 
 
 const kont1 = ['Амелотекс', 'Гриппферон', 'Дифлюкан', 'Зовиракс', 'Лидокаин спрей', 'Макмирор', 'Мидокалм', 'Микролакс', 'Млекоин', 'Найз табл', 'Но-шпа внутривенно', 'Но-шпа таблетки', 'Нурофен экспресс'];
+const kont2 = ['Таваник', 'Тева мазь'];
+const kont3 = ['Регидрон', 'Самоклеящийся бинт'];
+
+
+const vivodKont1 = (lastNumber) => {
+
+  let i = 0;
+
+  let result = '';
+
+  while (i < kont1.length) {
+
+   const currentChar = kont1[i];
+
+    result = `${result} \n \n ${currentChar}`;
+
+   i = i + 1;
+  }
+
+ return result;
+
+}
+
+
+function addmassiv(){
+
+  let str;
+  let result;
+
+  str = kont1
+  result = vivodKont1(str);
+
+  document.getElementById('rezult').innerHTML = result;
+
+};
+
+/*
 
 function addmassiv(){
     document.getElementById('rezult').innerHTML = kont1.join(", ");
     };
 
+*/
 
-const kont2 = ['Таваник', 'Тева мазь'];
 
 function addmassiv1(){
     document.getElementById('rezult').innerHTML = kont2.join(", ");
     };
 
-
-const kont3 = ['Регидрон', 'Самоклеящийся бинт'];
 
 function addmassiv2(){
     document.getElementById('rezult').innerHTML = kont3.join(", ");
