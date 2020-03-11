@@ -62,13 +62,13 @@ const kont3 = ['Регидрон', 'Самоклеящийся бинт', 'Пл�
 
 
 function addmassiv(){
-    document.getElementById('rezult').innerHTML = kont1.sort().join(", ");
+    document.getElementById('rezult').innerHTML = kont1.sort().join("<br>");
     };
 
 function addmassiv1(){
-    document.getElementById('rezult').innerHTML = kont2.sort().join(", ");
+    document.getElementById('rezult').innerHTML = kont2.sort().join("<br>");
     };
 
 function addmassiv2(){
-    document.getElementById('rezult').innerHTML = kont3.sort().join(", ");
+    document.getElementById('rezult').innerHTML = kont3.sort().join("<br>");
     };
