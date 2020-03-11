@@ -52,3 +52,23 @@ function poisk(){
 
   document.getElementById('result1').innerHTML = result;
 };
+
+
+const kont1 = ['Амелотекс', 'Гриппферон', 'Дифлюкан', 'Зовиракс', 'Лидокаин спрей', 'Макмирор', 'Мидокалм', 'Микролакс', 'Млекоин', 'Найз табл', 'Но-шпа внутривенно', 'Но-шпа таблетки', 'Нурофен экспресс', 'Нурофен сироп детский', 'Отофа', 'Офтагель', 'Парацетомол', 'Реаферон-Липинт', 'Burn free', 'Hydrocortison', 'Пластырь детский', 'Терафлю', 'Зостерин-ультра', 'Ринофлуимуцил', 'Тантум-Верде спрей', 'Доктор мом', 'Панатус форте', 'Отикапс'];
+
+const kont2 = ['Таваник', 'Тева мазь'];
+
+const kont3 = ['Регидрон', 'Самоклеящийся бинт'];
+
+
+function addmassiv(){
+    document.getElementById('rezult').innerHTML = kont1.sort().join(", ");
+    };
+
+function addmassiv1(){
+    document.getElementById('rezult').innerHTML = kont2.sort().join(", ");
+    };
+
+function addmassiv2(){
+    document.getElementById('rezult').innerHTML = kont3.sort().join(", ");
+    };
