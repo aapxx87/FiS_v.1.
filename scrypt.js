@@ -18,6 +18,16 @@ if (str[0] !== str[0].toUpperCase()) {
 
 };
 
+
+const ubrProb = (str) => {
+
+const preobrText = str.trim();
+return preobrText;
+
+};
+
+
+
 const findFarm = (farm) => {
 
  if (farm === 'Амелотекс' || farm === 'Гриппферон' || farm === 'Дифлюкан' || farm === 'Зовиракс' || farm === 'Лидокаин спрей' || farm === 'Макмирор' || farm === 'Мидокалм' || farm === 'Микролакс' || farm === 'Млекоин' || farm === 'Найз табл' || farm === 'Но-шпа внутривенно' || farm === 'Но-шпа таблетки' || farm === 'Нурофен экспресс' || farm === 'Нурофен сироп детский' || farm === 'Отофа' || farm === 'Офтагель' || farm === 'Парацетомол' || farm === 'Реаферон-Липинт' || farm === 'Burn free' || farm === 'Hydrocortison' || farm === 'Пластырь детский' || farm === 'Терафлю' || farm === 'Пластырь детский' || farm === 'Пластырь детский' || farm === 'Зостерин-ультра' || farm === 'Ринофлуимуцил' || farm === 'Тантум-Верде спрей' || farm === 'Доктор мом' || farm === 'Панатус форте' || farm === 'Отикапс') {
@@ -34,7 +44,6 @@ const findFarm = (farm) => {
  return 'Коробка 3';
  }
 
-
  else {
    return 'Данного продукта нет'
  }
@@ -48,7 +57,7 @@ function poisk(){
 
   str = document.getElementById('inp_1').value;
 
-  result = findFarm(bigBukwa(str));
+  result = findFarm(bigBukwa(ubrProb(str)));
 
   document.getElementById('result1').innerHTML = result;
 };
