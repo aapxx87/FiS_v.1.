@@ -45,11 +45,11 @@ body {
 
 
 .buttonSearch {
-  width: 100px;
+  width: 90px;
   height: 35px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: ;
+  margin-bottom: 2px;
   border: 1px solid;
 }
 
@@ -78,8 +78,7 @@ body {
 
 
 .divObsij {
-  display: flex;
-  width: 250px;
+  width: 280px;
   margin-left: auto;
   margin-right: auto;
   background: ;
@@ -87,7 +86,8 @@ body {
 
 
 .divKorSoders {
-  width: 30%;
+  height: 40px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   background: ;
@@ -95,8 +95,9 @@ body {
 
 
 .resultKor {
-  width: 50%;
+  margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
+  background: ;
 }
