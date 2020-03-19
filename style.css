@@ -4,12 +4,12 @@ body {
 
 
 .searchTitle {
-  width: 210px;
+  width: 230px;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   background: ;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 
@@ -23,80 +23,109 @@ body {
 
 
 .inputForm {
-  width: 240px;
+  width: 290px;
   margin-left: auto;
   margin-right: auto;
 }
 
 
 .inputArea {
-  width: 210px;
-  height: 25px;
+  width: 290px;
+  height: 30px;
+  padding: 0.375rem 0.75rem;
+  font-size: 10px;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 
 .buttonSearchDiv {
-  display: flex;
+  width: 91px;
   margin-top: 30px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
   background: ;
 }
 
 
 .buttonSearch {
-  width: 100px;
+  margin-top: 2px;
+  width: 90px;
   height: 35px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: ;
-  border: 1px solid;
+  color: #343a40;
+  border-color: #343a40;
+}
+
+
+.buttonSearch:hover {
+  margin-top: 2px;
+  width: 90px;
+  height: 35px;
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
 }
 
 
 .titleResultat {
   display: flex;
-  width: 210px;
+  width: 230px;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   background: ;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 
 .resultat {
   display: flex;
-  width: 210px;
-  height: 27px;
+  width: 230px;
+  height: 40px;
   margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
   background: white;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
 }
 
 
 .divObsij {
-  display: flex;
-  width: 250px;
+  width: 280px;
   margin-left: auto;
   margin-right: auto;
   background: ;
 }
 
 
+.spanVesi {
+margin-top: 10px;
+
+}
+
+
+
+
 .divKorSoders {
-  width: 30%;
+  height: 40px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
   background: ;
 }
 
 
 .resultKor {
-  width: 50%;
+  margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
+  background: ;
 }
